@@ -20,9 +20,9 @@ function Home() {
     }, []);
 
     return (
-        <div className={styles.container}>
+        <div className="container">
             <div>
-                {loading ? <div><span className={styles.loader}>Loading......</span></div> : <div className={styles.movies}>
+                {loading ? <div><span className="loader">Loading......</span></div> : <div className="movies">
                     {movies.map((movie) =>
                         <Movie
                             key={movie.id}
