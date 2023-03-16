@@ -18,7 +18,7 @@ class App extends React.Component {
     };
 
     async componentDidMount() {
-        this.getMovies();
+        await this.getMovies();
     };
 
     render() {
