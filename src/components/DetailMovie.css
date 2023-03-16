@@ -1,0 +1,35 @@
+.container{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imgContainer{
+    display: flex;
+    justify-content: right;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.content ul{
+    margin-top: -50px;
+    list-style-type: none;
+}
+.content ul li{
+    margin: 30px 0;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+.rating,
+.runtime,
+.tag{
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+}
+.tag span{
+    margin-left: 10px;
+}
